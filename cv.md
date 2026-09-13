@@ -50,4 +50,5 @@ At the moment, I'm a student of a technical university, majoring in computer eng
 
 ## Foreign languages
 
-English - intermediate
+English - pre-intermediate
+![certificate](certificate.jpg)
