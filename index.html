@@ -3,7 +3,101 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>CV</title>
+    <link rel="stylesheet" href="style.css">
 </head>
-<body></body>
+<body>
+    <header>
+        <div class="header_profile">
+            <div class="header_text">
+                <h1>Alina Zinovich</h1>
+                <p class="job_title">Frontend-developer</p>
+            </div>
+            <img src="avatar.jpg" alt="Alina photo" class="profile_photo">
+            
+        </div>
+    </header>
+      
+    <hr>
+
+    <nav>
+            <ul>
+                <li><a href="#contacts">Contacts</a></li>
+                <li><a href="#about">Personal information</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#coding">Example of coding</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#langs">Foreign languages</a></li>
+            </ul>
+    </nav>
+
+    <hr>
+
+    <main class="cv"></main>
+        <section class="contacts" id="contacts">
+            <h2>Contact information</h2>
+            <ul>
+                <li>Discord: @alina_92842</li>
+                <li>GitHub: <a href="https://github.com/alina200508">alina200508</a></li>
+            </ul>
+        </section>
+        <section class="about" id="about">
+            <h2>Personal information</h2>
+            <p>Dream of working as a programmer(Frontend-developer). Easily absorb information and love learning new things.</p>
+        </section>  
+
+        <section class="skills" id="skills">
+            <h2>Skills</h2>
+            <ul>
+                <li>JS level - elementary</li>
+                <li>Git - elementary</li>
+                <li>SQL - elementary</li>
+                <li>Worked with low-level programming languages</li>
+            </ul>
+        </section>
+
+        <section class="coding" id="coding">
+            <h2>Example of coding</h2>
+            <p>Implementation of the function for multiplying two variables:</p>
+            <pre><code>function multiply(a, b){
+  return a * b
+}
+            </code></pre>
+        </section>
+
+        <section class="projects" id="projects">
+            <h2>Projects</h2>
+            <ul>
+                <li><a href="https://github.com/alina200508/Cleaning-Schedule-Bot">Cleaning schedule bot</a></li>
+                <li><a href="https://github.com/alina200508/First-project">Weather app with Vite</a></li>
+            </ul>
+        </section>
+
+        <section class="education" id="education">
+            <h2>Education</h2>
+            <p>At the moment, I am a student of a technical university, majoring in computer engineering.</p>
+        </section>
+
+        <section class="langs" id="langs">
+            <h2>Foreign languages</h2>
+            <p>English-level: Pre-Intermediate</p>
+            <img src="certificate.jpg" alt="certificate" class="certificate">
+        </section>
+    </main>
+
+    <hr>
+
+    <footer>
+      <div class="footer_links">
+        <a href="https://github.com/alina200508">My GitHub Profile</a>
+
+        <a class="rslogo" href="https://rs.school/courses/javascript"><img src="rss-logo.c19ce1b4.svg" alt="RSSchool Logo"></a>
+      </div>  
+      
+      <div class="footer-copyright">
+        <small>&copy; 2026</small>
+    </div>
+    </footer>
+</body>
 </html>
