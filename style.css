@@ -1,0 +1,60 @@
+body {
+    max-width: 800px;
+    margin: 0 auto;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #333;
+}
+
+.header_profile {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+}
+
+.header_text {
+    flex: 1;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #333;
+}
+
+.profile_photo {
+    width: 150px;      /* Задаем фиксированную ширину */
+    height: 150px;     /* Задаем фиксированную высоту */
+    object-fit: cover; /* Чтобы фото не сжималось и не растягивалось непропорционально */
+    border-radius: 50%; /* Делает фотографию полностью круглой */
+    border: 2px solid #333; /* По желанию: аккуратная рамка вокруг фото */
+}
+
+nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    list-style: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.certificate {
+    max-width: 500px;
+    object-fit: cover;
+    margin: 10px auto;
+}
+
+.rslogo {
+    width: 60px;
+    height: 30px;
+    display: block;
+}
+
+footer {
+   display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 30px;
+}
+
+.footer_links {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
