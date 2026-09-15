@@ -19,11 +19,11 @@ body {
 }
 
 .profile_photo {
-    width: 150px;      /* Задаем фиксированную ширину */
-    height: 150px;     /* Задаем фиксированную высоту */
-    object-fit: cover; /* Чтобы фото не сжималось и не растягивалось непропорционально */
-    border-radius: 50%; /* Делает фотографию полностью круглой */
-    border: 2px solid #333; /* По желанию: аккуратная рамка вокруг фото */
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 2px solid #333;
 }
 
 nav ul {
